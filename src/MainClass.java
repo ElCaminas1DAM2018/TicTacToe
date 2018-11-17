@@ -12,6 +12,7 @@ public class MainClass {
 		
 		while (! gameOver) {
 			
+			isRight = false;
 			while (! isRight) {
 				System.out.println(board);
 				System.out.println("TURN: " + board.getTurn() + "  (" +
